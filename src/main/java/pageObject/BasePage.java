@@ -16,7 +16,7 @@ public class BasePage {
 	public void setup() throws IOException{
 		
 		Properties p= new Properties();
-		FileInputStream fi = new FileInputStream("C:\\Trabajos\\Pilot\\global.properties");
+		FileInputStream fi = new FileInputStream("Add your path");
         p.load(fi);
         
         if (p.getProperty("browser").contains("chrome"))
